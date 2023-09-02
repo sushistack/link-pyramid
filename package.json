@@ -1,0 +1,14 @@
+{
+  "name": "link-pyramid",
+  "version": "1.0.0",
+  "dependencies": {
+    "mongoose": "^7.5.0"
+  },
+  "description": "This project is creating link pyramid",
+  "main": "index.js",
+  "author": "MJ",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.6.4"
+  }
+}
