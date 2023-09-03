@@ -1,10 +1,10 @@
 module.exports = {
-    id: String,
-    tier: Number,
-    url: String,
-    gitId: String,
-    savedPath: String,
-    commit: String,
-    parentId: String,
-    createdAt: Date
+  id: { type: String, required: true, unique: true },
+  tier: Number,
+  url: String,
+  gitId: { type: string, required: true },
+  savedPath: String,
+  commit: String,
+  parentId: String,
+  createdAt: Date
 };

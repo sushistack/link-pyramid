@@ -1,6 +1,9 @@
 {
   "name": "link-pyramid",
   "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "mongoose": "^7.5.0"
   },
